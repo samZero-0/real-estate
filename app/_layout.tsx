@@ -23,5 +23,5 @@ export default function RootLayout() {
     return null; // Or a loading screen
   }
 
-  return <Stack />;
+  return <Stack screenOptions={{headerShown:false}} />;
 }
