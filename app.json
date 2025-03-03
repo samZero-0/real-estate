@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.samzero.realestate"
     },
     "web": {
       "bundler": "metro",
@@ -30,7 +31,7 @@
           "image": "./assets/images/splash-icon.png",
           "resizeMode": "cover",
           "backgroundColor": "#ffffff",
-          "enableFullScreenImage_legacy" : true
+          "enableFullScreenImage_legacy": true
         }
       ],
       [
@@ -49,6 +50,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bdbd4718-9500-40e5-ba45-ca3c97df3b25"
+      }
+    },
+    "owner": "samzero"
   }
 }
